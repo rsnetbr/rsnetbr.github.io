@@ -1,0 +1,111 @@
+/*limpar formart*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 1em;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    background-color: rgb(211, 211, 211);
+
+}
+/*-----------FORMAT LAYOUT-------------*/
+#area-cabecalho {
+    background-color: #f70000;
+    padding: 15px;
+    text-align: center;
+
+}
+#area-logo, #area-menu { 
+    padding: 10px;  
+}
+#area-principal {
+    width: 920px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#area-noticias {
+    width: 660px;
+    float: left;
+}
+#area-lateral {
+    width: 240px;
+    float: right;
+}
+.postagem{
+    padding: 20px;
+    bottom: 20px;
+    background: white;
+}
+.c-lateral{
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+.post-lateral{
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px dotted #CCC;
+}
+
+#rodape {
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #CCC;
+}
+/*-----------FORMAT MENU-------------*/
+a {
+    text-decoration: none;
+}
+a:link, a:visited{
+    color: #f70000;
+}
+a:hover{
+    text-decoration: underline;
+}
+#area-cabecalho a:link, #area-cabecalho a:visited{
+    color: #FFF;
+    padding: 10px 12px;
+}
+#area-cabecalho a:hover{
+    color: #f70000;
+    background-color: #FFF;
+    text-decoration: none;
+}
+h1{
+    color: #4e4e4e; 
+    font-size: 2.5em;
+}
+h3{
+    color: #565656; 
+    background: #CCC;
+    padding: 5px;
+}
+
+.branco{
+    color: white;
+}
+.toro{
+    color: red;
+}
+.data-post{
+    font-size: 0.7em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+.titulo{
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+}
+.redes-s{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px dotted #CCC;
+}
+.insta{
+    text-align: left;
+}
